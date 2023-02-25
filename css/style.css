@@ -86,6 +86,7 @@ header a:hover {
   padding: 0 24px;
 }
 .gallery h2 {
+  color: #111111;
   margin-bottom: 32px;
   padding-left: 8px;
   border-left: 4px solid #f13239;
@@ -109,4 +110,52 @@ header a:hover {
 }
 .gallery p {
   font-weight: bold;
+}
+.history {
+  margin: 64px 0 400px;
+  padding:  92px 24px ;
+  background-color: #111111;
+  color: #ebebeb;
+
+  border-top:  4px solid #f13239;
+}
+.history .container {
+  max-width: 1200px;
+  margin: 0 auto ;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px ;
+
+  border-bottom: 1px solid #f13239;
+}
+
+.history .container .col {
+  flex: 1 1 350px;
+}
+
+.history .container .col img {
+  width: 100%;
+  display: block;
+}
+.history h2 {
+  margin-bottom: 32px;
+  padding-left: 8px;
+  border-left: 4px solid #f13239;
+}
+.history p {
+  line-height: 1.5 ;
+
+}
+
+.history p + p {
+  margin-top: 24px ;
+}
+.history a {
+  color: #f13239;
+  transition: color 0.3s ;
+}
+.history a:hover {
+  color:#ebebeb
 }
