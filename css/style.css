@@ -7,17 +7,41 @@
 body {
   font-family: sans-serif;
 }
+a {
+  transition: color 0.2s;
+}
+
+h2 {
+  margin-bottom: 32px;
+  padding-left: 8px;
+  border-left: 4px solid #f13239;
+}
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+ }
+
+ .dark {
+  background-color: #111111;
+  color: #ebebeb;
+ }
+
+.dark-link {
+  color: #f13239;
  
+}
+.dark-link:hover {
+  color: #ebebeb;
 
 }
+.text-center {
+  text-align: center;
+}
+
 
 header {
   padding: 8px 24px;
-  background-color: #111111;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -43,7 +67,7 @@ header ul li + li {
 header a {
   color: #ebebeb;
   text-decoration: none;
-  transition: color 0.2s;
+  
 }
 
 header a:hover {
@@ -99,9 +123,7 @@ header a:hover {
 
 .gallery h2 {
   color: #111111;
-  margin-bottom: 32px;
-  padding-left: 8px;
-  border-left: 4px solid #f13239;
+ 
 }
 
 .gallery-row {
@@ -126,9 +148,6 @@ header a:hover {
 .history {
  
   padding: 92px 24px 0;
-  background-color: #111111;
-  color: #ebebeb;
-
   border-top: 4px solid #f13239;
 }
 .history .container {
@@ -149,11 +168,7 @@ header a:hover {
   width: 100%;
   display: block;
 }
-.history h2 {
-  margin-bottom: 32px;
-  padding-left: 8px;
-  border-left: 4px solid #f13239;
-}
+
 .history p {
   line-height: 1.5;
 }
@@ -161,26 +176,14 @@ header a:hover {
 .history p + p {
   margin-top: 24px;
 }
-.history a {
-  color: #f13239;
-  transition: color 0.2s;
-}
-.history a:hover {
-  color: #ebebeb;
-}
+
+
 
 footer {
   padding: 64px 24px;
-  background-color: #111111;
-  color: #ebebeb;
-  text-align: center;
+ 
 }
 
-footer a {
-  color: #f13239;
-  transition: color 0.2s;
-}
 
-footer a:hover {
-  color: #ebebeb;
-}
+
+
