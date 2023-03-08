@@ -51,6 +51,11 @@ h2 {
 
 header {
   padding: 8px 16px;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+
  
 }
 
@@ -100,6 +105,8 @@ header a:focus {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+
+  margin-top: 56px;
 }
 
 .hero h1 {
